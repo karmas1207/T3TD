@@ -298,6 +298,9 @@ margin-top: 0.5em;
 padding: 0.8em;
 flex: 1;
 }
+.modal-content {
+width: 100%;
+}
 section {
 margin-top: 10em;
 margin-left: 1em;
@@ -332,6 +335,9 @@ margin-top: 1.4em;
 .userpanel:hover {
 padding: 2em;
 margin-top: 1.4em;
+}
+.modal-content {
+width: 100%;
 }
 section {
 margin-top: 12em;
