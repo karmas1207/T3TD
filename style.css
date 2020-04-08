@@ -113,22 +113,17 @@ padding-right: 15px;
 
 .banner {
 background-image: url(banner.jpg);
-height: 450px;
-}
-
-.bannertext {
-font-size: 4em;
-font-family: "Roboto-Light";
-vertical-align: middle;
-text-align: center;
-background-color: rgba(0,0,0,0.35);
-padding-top: 200px;
+height: 350px;
 }
 
 .logo {
+
 max-width: 1338px;
+margin-left: auto;
+margin-right: auto;
 width: 100%;
-padding-top: 50px;
+
+margin-top: 60px;
 }
 
 @font-face {
