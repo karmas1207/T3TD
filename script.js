@@ -58,7 +58,7 @@ function randomImg(){
             src = image[0]
             randomNumber = image[1]
             percent = collection[randomNumber] / 25
-            document.getElementById("popular").innerHTML += `<img class="random-img" src=${src} />`
+            document.getElementById("popular").innerHTML += `<img class="movie" src=${src} />`
         }
 }
 
@@ -80,7 +80,7 @@ function randomImg2(){
             src = image[0]
             randomNumber = image[1]
             percent = collection[randomNumber] / 25
-            document.getElementById("blockbusters").innerHTML += `<img class="random-img" src=${src} />`
+            document.getElementById("blockbusters").innerHTML += `<img class="movie" src=${src} />`
         }
 }
 
@@ -102,7 +102,7 @@ function randomImg3(){
             src = image[0]
             randomNumber = image[1]
             percent = collection[randomNumber] / 25
-            document.getElementById("justForYou").innerHTML += `<img class="random-img" src=${src} />`
+            document.getElementById("justForYou").innerHTML += `<img class="movie" src=${src} />`
         }
 }
 
@@ -124,7 +124,7 @@ function randomImg4(){
             src = image[0]
             randomNumber = image[1]
             percent = collection[randomNumber] / 25
-            document.getElementById("movieDeals").innerHTML += `<img class="random-img" src=${src} />`
+            document.getElementById("movieDeals").innerHTML += `<img class="movie" src=${src} />`
         }
 }
 
@@ -146,6 +146,6 @@ function randomImg5(){
             src = image[0]
             randomNumber = image[1]
             percent = collection[randomNumber] / 25
-            document.getElementById("container").innerHTML += `<img class="random-img" src=${src} />`
+            document.getElementById("container").innerHTML += `<img class="movie" src=${src} />`
         }
 }
